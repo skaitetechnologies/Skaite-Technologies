@@ -1,0 +1,604 @@
+/*=========================================================
+                    RESPONSIVE STYLES
+=========================================================*/
+
+
+/*=========================================================
+                LARGE DEVICES
+=========================================================*/
+
+@media (max-width:1200px){
+
+    .container{
+
+        width:94%;
+
+    }
+
+}
+
+
+/*=========================================================
+                    TABLET
+=========================================================*/
+
+@media (max-width:992px){
+
+    /*==============================
+        TYPOGRAPHY
+    ==============================*/
+
+    h1{
+
+        font-size:48px;
+
+    }
+
+    h2{
+
+        font-size:38px;
+
+    }
+
+    h3{
+
+        font-size:26px;
+
+    }
+
+    /*==============================
+        HEADER
+    ==============================*/
+
+    .header .container{
+
+        height:80px;
+
+    }
+
+    .logo img{
+
+        height:46px;
+
+    }
+
+    .menu-toggle{
+
+        display:flex;
+
+        z-index:1200;
+
+    }
+
+    .header-actions{
+
+        display:none;
+
+    }
+
+    /*==============================
+        MOBILE NAVIGATION
+    ==============================*/
+
+    .navbar{
+
+        position:absolute;
+
+        top:100%;
+
+        left:0;
+
+        width:100%;
+
+        background:#ffffff;
+
+        border-top:1px solid var(--border);
+
+        box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+        overflow:hidden;
+
+        max-height:0;
+
+        transition:.35s;
+
+    }
+
+    .navbar.active{
+
+        max-height:600px;
+
+    }
+
+    .nav-menu{
+
+        flex-direction:column;
+
+        gap:0;
+
+        padding:20px 0;
+
+    }
+
+    .nav-menu li{
+
+        width:100%;
+
+    }
+
+    .nav-link{
+
+        display:block;
+
+        padding:18px 30px;
+
+        border-bottom:1px solid #F1F5F9;
+
+    }
+
+    .nav-link::after{
+
+        display:none;
+
+    }
+
+    /*==============================
+        HERO
+    ==============================*/
+
+    .hero{
+
+        min-height:auto;
+
+        padding-top:140px;
+
+    }
+
+    .hero-container{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
+
+    }
+
+    .hero-content{
+
+        order:2;
+
+        text-align:center;
+
+    }
+
+    .hero-image{
+
+        order:1;
+
+        display:flex;
+
+        justify-content:center;
+
+    }
+
+    .hero-image img{
+
+        max-width:600px;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+    .hero-features{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    /*==============================
+        ABOUT
+    ==============================*/
+
+    .about-container{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
+
+    }
+
+    .about-image{
+
+        display:flex;
+
+        justify-content:center;
+
+    }
+
+    .about-image img{
+
+        max-width:550px;
+
+    }
+
+    /*==============================
+        SOLUTIONS
+    ==============================*/
+
+    .solutions-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /*==============================
+        WHY US
+    ==============================*/
+
+    .why-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    /*==============================
+        CONTACT
+    ==============================*/
+
+    .quick-contact{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /*==============================
+        FOOTER
+    ==============================*/
+
+    .footer-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:40px;
+
+    }
+
+}
+
+
+/*=========================================================
+                    MOBILE
+=========================================================*/
+
+@media (max-width:768px){
+
+    section{
+
+        padding:80px 0;
+
+    }
+
+    h1{
+
+        font-size:40px;
+
+    }
+
+    h2{
+
+        font-size:32px;
+
+    }
+
+    h3{
+
+        font-size:24px;
+
+    }
+
+    p{
+
+        font-size:15px;
+
+    }
+
+    .header .container{
+
+        height:74px;
+
+    }
+
+    .logo img{
+
+        height:42px;
+
+    }
+
+    /*==============================
+        HERO
+    ==============================*/
+
+    .hero{
+
+        padding-top:120px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:42px;
+
+    }
+
+    .hero-content p{
+
+        font-size:16px;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .hero-buttons .btn,
+
+    .hero-buttons .btn-outline{
+
+        width:260px;
+
+    }
+
+    .hero-features{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /*==============================
+        ABOUT
+    ==============================*/
+
+    .about-cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /*==============================
+        SERVICES
+    ==============================*/
+
+    .services-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /*==============================
+        WHY US
+    ==============================*/
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /*==============================
+        PROCESS
+    ==============================*/
+
+    .process-card{
+
+        padding:30px 20px;
+
+    }
+
+    .process-card img{
+
+        width:80px;
+
+        height:80px;
+
+    }
+
+    /*==============================
+        FOOTER
+    ==============================*/
+
+    .footer{
+
+        text-align:center;
+
+    }
+
+    .footer-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .footer-logo{
+
+        margin:auto auto 25px;
+
+    }
+
+    .footer-contact li{
+
+        justify-content:center;
+
+    }
+
+}
+
+
+/*=========================================================
+                SMALL MOBILE
+=========================================================*/
+
+@media (max-width:576px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+    h1{
+
+        font-size:34px;
+
+    }
+
+    h2{
+
+        font-size:28px;
+
+    }
+
+    h3{
+
+        font-size:22px;
+
+    }
+
+    .menu-toggle{
+
+        width:42px;
+
+        height:42px;
+
+    }
+
+    .menu-toggle span{
+
+        width:22px;
+
+    }
+
+    .nav-link{
+
+        padding:16px 24px;
+
+        font-size:15px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:34px;
+
+    }
+
+    .hero-content p{
+
+        font-size:15px;
+
+    }
+
+    .hero-badge{
+
+        font-size:14px;
+
+    }
+
+    .hero-image img{
+
+        width:100%;
+
+    }
+
+}
+
+
+/*=========================================================
+                EXTRA SMALL
+=========================================================*/
+
+@media (max-width:400px){
+
+    h1{
+
+        font-size:30px;
+
+    }
+
+    h2{
+
+        font-size:26px;
+
+    }
+
+    .logo img{
+
+        height:38px;
+
+    }
+
+}
+
+/*=========================================================
+                    404 PAGE
+=========================================================*/
+
+@media(max-width:768px){
+
+    .error-page h1{
+
+        font-size:100px;
+
+    }
+
+    .error-logo{
+
+        width:180px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .error-page h1{
+
+        font-size:80px;
+
+    }
+
+    .error-logo{
+
+        width:160px;
+
+    }
+
+}
+
+/*=========================================================
+                PRIVACY POLICY
+=========================================================*/
+
+@media(max-width:768px){
+
+    .privacy{
+
+        padding:120px 0 80px;
+
+    }
+
+    .privacy-content{
+
+        padding:30px 25px;
+
+    }
+
+}

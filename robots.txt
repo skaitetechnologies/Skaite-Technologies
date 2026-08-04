@@ -1,0 +1,10 @@
+# =========================================================
+# SKAITE TECHNOLOGIES
+# ROBOTS.TXT
+# =========================================================
+
+User-agent: *
+
+Allow: /
+
+Sitemap: https://www.skaitetechnologies.com/sitemap.xml

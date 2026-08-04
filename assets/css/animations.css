@@ -1,0 +1,87 @@
+/*=========================================================
+            SCROLL ANIMATION
+=========================================================*/
+
+.hero-content,
+.hero-image{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:.8s ease;
+
+}
+
+.hero-content.show,
+.hero-image.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+.about-image,
+.about-content{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:.8s ease;
+
+}
+
+.about-image.show,
+.about-content.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/*=========================================================
+            PROCESS ANIMATION
+=========================================================*/
+
+.process-card{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:.8s ease;
+
+}
+
+.process-card.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/*=========================================================
+                CONTACT ANIMATION
+=========================================================*/
+
+.quick-card{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:.8s ease;
+
+}
+
+.quick-card.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
